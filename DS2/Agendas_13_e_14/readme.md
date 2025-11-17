@@ -6,7 +6,7 @@ Com base nos pedidos do portal, foi desenvolvido um app pelo Visual Studio 2022 
 
 ## Capturas de tela e explicação
 
-![Tela de início do aplicativo](DS2/Agendas_13_e_14/Prints/Tela_Inicial.png "Tela de início do aplicativo.")
+![Tela de início do aplicativo](/Prints/Tela_Inicial.png)
 
 Aqui é possivel visualizar a tela incial do aplicativo, com as opções de realizar a reserva de uma suite ou ver a parte "sobre" do aplicativo.
 
