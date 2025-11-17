@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.CadastrarEvento"
+             Title="CadastrarEvento"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Gray100}">
+
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="5"
+                         Spacing="5">
+        <Label 
+            Text="Cadastro de evento"
+               FontFamily="Kalam"
+               FontSize="45"
+               TextColor="{StaticResource Primary}" />
+
+        <Frame Padding="20" Margin="10" BackgroundColor="White">
+            <VerticalStackLayout Spacing="7">
+
+                <!-- Nome do evento -->
+                <Label Text="Nome do evento"
+               TextColor="{StaticResource Primary}" />
+                <Entry x:Name="EntryNomeEvento"
+               TextColor="Black"
+               Placeholder="Digite o nome do evento" />
+
+                <!-- Datas lado a lado -->
+                <StackLayout>
+                    <HorizontalStackLayout HorizontalOptions="CenterAndExpand" >
+
+                        <!-- Data de início -->
+                        <VerticalStackLayout>
+                            <Label Text="Data de início"
+                           TextColor="{StaticResource Primary}" />
+                            <DatePicker x:Name="DateInicio"
+                                Format="dd/MM/yyyy"
+                                DateSelected="DateInicio_DateSelected" />
+                        </VerticalStackLayout>
+
+                        <!-- Data de término -->
+                        <VerticalStackLayout>
+                            <Label Text="Data de término"
+                           TextColor="{StaticResource Primary}" />
+                            <DatePicker x:Name="DateTermino"
+                                Format="dd/MM/yyyy"
+                                DateSelected="DateTermino_DateSelected" />
+
+                        </VerticalStackLayout>
+
+                    </HorizontalStackLayout>
+                </StackLayout>
+
+                <!-- Número de participantes -->
+                <Label Text="Numero de participantes"
+               TextColor="{StaticResource Primary}" />
+                <Entry x:Name="EntryNumeroParticipantes"
+               TextColor="Black"
+               Keyboard="Numeric"
+               Placeholder="Digite o número de participantes" />
+
+                <!-- Local do evento -->
+                <Label Text="Local do evento"
+               TextColor="{StaticResource Primary}" />
+                <Label Text="Hotel Instância Sorocaba"
+               TextColor="Black" />
+
+                <!-- Custo por participante -->
+                <Label Text="Custo por participante"
+               TextColor="{StaticResource Primary}" />
+                <Entry x:Name="EntryCustoParticipante"
+               TextColor="Black"
+               Keyboard="Numeric"
+               Placeholder="Digite o custo por participante" />
+
+                <!-- Botões -->
+                <StackLayout Orientation="Horizontal">
+
+                    <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                        <Button Text="Voltar" Clicked="Button_Clicked" />
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                        <Button Text="Avançar" Clicked="Button_Clicked_1"   />
+                    </HorizontalStackLayout>
+                </StackLayout>
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+    </VerticalStackLayout>
+    
+</ContentPage>
