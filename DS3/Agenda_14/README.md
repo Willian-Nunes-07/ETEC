@@ -208,19 +208,19 @@ Durante o desenvolvimento, enfrentei e resolvi os seguintes desafios:
 
 ### Tela de Login
 
-![[/DS3/Agenda_14/Captura_de_tela/Ag14_Tela_de_Login.png]]
+![Tela de Login](Captura_de_tela/Ag14_Tela_de_Login.png)
 
 ### Painel do Usuário
 
-![[/DS3/Agenda_14/Captura_de_tela/Ag14_Painel_Usuario.png]]
+![Painel do Usuário](Captura_de_tela/Ag14_Painel_Usuario.png)
 
 ### Painel do Administrador
 
-![[/DS3/Agenda_14/Captura_de_tela/Ag14_Painel_admin.png]]
+![Painel do Administrador](Captura_de_tela/Ag14_Painel_admin.png)
 
 ### Visualização de Currículo
 
-![[/DS3/Agenda_14/Captura_de_tela/Ag14_Visualizacao_Curriculo.png]]
+![Visualização de Currículo](Captura_de_tela/Ag14_Visualizacao_Curriculo.png)
 
 ---
 
